@@ -9,3 +9,15 @@ body {
     color: aquamarine; /* Choose a color that matches your mock design */
     text-decoration: none;
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Keeps it strictly centered */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
