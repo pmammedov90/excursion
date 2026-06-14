@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center; /* This centers our text and links automatically! */
+}
+
+.cta-link {
+    color: aquamarine; /* Choose a color that matches your mock design */
+    text-decoration: none;
+}
