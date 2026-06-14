@@ -1,23 +1,40 @@
+/* Update your existing body styles to include global font color hierarchy */
 body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-    text-align: center; /* This centers our text and links automatically! */
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px; /* Gives the whole page breathing room */
 }
 
+/* Gray out supporting paragraph descriptions to create visual hierarchy */
+p {
+    color: gray;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Ensure headings stand out in crisp white */
+h1, h2 {
+    color: white;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+/* Style the call-to-action link to look like a vibrant accent */
 .cta-link {
-    color: aquamarine; /* Choose a color that matches your mock design */
-    text-decoration: none;
+    color: aquamarine;
+    text-decoration: underline;
 }
 
-video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Keeps it strictly centered */
+/* Footer specific styling */
+.site-footer {
+    margin-top: 60px;
+    border-top: 1px solid #333; /* Soft line separating content from copyright */
+    padding-top: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.site-footer p {
+    font-size: 12px;
 }
